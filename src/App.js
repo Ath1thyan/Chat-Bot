@@ -34,7 +34,7 @@ function App() {
           <button onClick={handleNewChat} className='midBtn'><img src={addBtn} alt='New Chat' className='addBtn'/>New Chat</button>
           <div className='upperSideBottom'></div>
         </div>
-        <div className='lowerSide'>
+        {/* <div className='lowerSide'>
           <div className='listItems'>
             <img className='listItemsImg' src={home} alt='Home' /> Home
           </div>
@@ -44,7 +44,7 @@ function App() {
           <div className='listItems'>
             <img className='listItemsImg' src={rocket} alt='Upgrade to Pro' /> Upgrade to Pro
           </div>
-        </div>
+        </div> */}
       </div>
       <Main/>
     </div>

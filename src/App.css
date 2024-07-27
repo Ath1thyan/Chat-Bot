@@ -41,7 +41,7 @@ body {
 .upperSide {
     align-items: center;
     padding: 2.5rem;
-    border-bottom: 0.3px solid rgb(56, 56, 56);
+    /* border-bottom: 0.3px solid rgb(56, 56, 56); */
     height: 70%;
 }
 
@@ -175,6 +175,18 @@ body {
     background: rgba(28, 30, 58, 1);
     width: fit-content;
     border-radius: 0.5rem;
+    color: white;
+    white-space: pre-wrap;
+}
+.bot code {
+    display: block;
+    background: #333;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    color: #e2e2e2;
+    overflow-x: auto;
+    white-space: pre-wrap;
 }
 
 .chatFooter {
@@ -245,7 +257,7 @@ body {
     .sidebar {
         width: 100%;
         padding: 1rem 0;
-        border-bottom: 0.3px solid rgb(56, 56, 56);
+        /* border-bottom: 0.3px solid rgb(56, 56, 56); */
     }
 
     .main {

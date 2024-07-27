@@ -1,7 +1,7 @@
 import sendBtn from './assets/send.svg';
 import userIcon from './assets/5143537.jpg';
 import gptImgLogo from './assets/chatgptLogo.svg';
-import { useContext, useEffect, useRef } from 'react';
+import { useContext, useRef } from 'react';
 import { Context } from './context/Context';
 import './App.css';
 
@@ -22,7 +22,7 @@ const Main = () => {
             <h2>Welcome to Sudo Bot!</h2>
             <p>Ask me anything or start a new chat to get started.</p>
             <div className='instructions'>
-              <p>SudoBot uses OpenAI's GPT-3 model to generate responses. It's designed to be helpful and accurate, but it's not perfect.</p>
+              <p>SudoBot uses Google's Gemini AI model to generate responses. It's designed to be helpful and accurate, but it's not perfect.</p>
               <p>Click <span>New Chat</span> button on the sidebar to chat from beginning</p>
             </div>
           </div>
