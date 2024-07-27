@@ -1,9 +1,6 @@
 import './App.css';
 import gptLogo from './assets/chatgpt.svg';
 import addBtn from './assets/add-30.png';
-import home from './assets/home.svg';
-import saved from './assets/bookmark.svg';
-import rocket from './assets/rocket.svg';
 import { useContext, useEffect, useRef } from 'react';
 import { Context } from './context/Context';
 import Main from './Maint';
